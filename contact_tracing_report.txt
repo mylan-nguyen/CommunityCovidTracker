@@ -1,0 +1,32 @@
+Contact Records:
+    Bob (470550179) had contact with Paul (417254688), Mark (431911105), Carol (427843841), Leanne (419072662), Will (425613369)
+    Paul (417254688) had contact with Zach (461509250)
+    Mark (431911105) had contact with Philip (444029897), Zach (461509250)
+    Carol (427843841) had contact with Mark (431911105), Leanne (419072662)
+    Leanne (419072662) had contact with Sarai (422246158)
+    Will (425613369) had contact with Leanne (419072662), Mark (431911105)
+    Farley (468117575) had contact with Paul (417254688)
+    Larry (464591165) had contact with Carol (427843841), Mark (431911105), Leanne (419072662), Will (425613369)
+    Zach (461509250) had contact with Philip (444029897)
+
+Patient Zero(s): Bob (470550179), Farley (468117575), Larry (464591165)
+Potential sick members: Sarai (422246158), Philip (444029897)
+Sick members who got infected from another member: Paul (417254688), Mark (431911105), Carol (427843841), Leanne (419072662), Will (425613369), Zach (461509250)
+Most viral members: Bob (470550179)
+Most contacted members: Philip (444029897)
+Ultra spreaders: Leanne (419072662), Zach (461509250)
+Non-spreaders: Bob (470550179), Carol (427843841), Farley (468117575), Larry (464591165), Paul (417254688), Will (425613369)
+
+For bonus:
+Minimum distances of members from patient zeros:
+    Bob (470550179): 0
+    Paul (417254688): 1
+    Mark (431911105): 1
+    Carol (427843841): 1
+    Leanne (419072662): 1
+    Will (425613369): 1
+    Farley (468117575): 0
+    Sarai (422246158): 2
+    Larry (464591165): 0
+    Philip (444029897): 2
+    Zach (461509250): 2
