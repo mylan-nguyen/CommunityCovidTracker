@@ -38,6 +38,7 @@ class ContactTracker:
                     print("Raise error here", e)
 
             for value in dict(cases_with_contacts):
+                #print("my value: ", value)
                 try:
                     if value not in valid_sin_nums:
                         cases_with_contacts.pop(value)
@@ -302,46 +303,37 @@ def main():
     print(contact_tracker.cases_with_contacts)
     print(ContactTracker.members)
 
-    print("part 2")
+
     members_list2 = contact_tracker.get_contacts_by_sin_num('260996175')
     print(members_list2)
-
-    print("part 3")
+   
     print(contact_tracker.get_all_contacts())
 
     print()
-    print("part 4")
     print(contact_tracker.patient_zeros())
 
     print()
-    print("part 5")
     print(contact_tracker.potential_sick_members())
 
     print()
-    print("part 6")
     print(contact_tracker.sick_from_another_member())
 
     print()
-    print("part 7")
     print(contact_tracker.most_viral_members())
 
     print()
-    print("part 8")
     print(contact_tracker.most_contacted_member())
 
     print()
-    print("part 9")
     print(contact_tracker.ultra_spreaders())
 
     print()
-    print("part 10")
     print(contact_tracker.non_spreaders())
 
-    print("bonus part 1")
+    print()
     print(contact_tracker.min_distance_from_patient_zeros('461509250'))
 
     print()
-    print("bonus part 2")
     print(contact_tracker.all_min_distances_from_patient_zeros())
 
 

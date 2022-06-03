@@ -1,7 +1,7 @@
 import json
 
 # ===================================================
-# Function to have a defined type of student
+# Function to have a defined type of community member
 # ===================================================
 class Member:
 
@@ -23,8 +23,6 @@ class Member:
 
     @staticmethod
     def is_valid_id(sin_number):
-        if sin_number[0:1] != '4':
-            return False
 
         for i in sin_number:
             if i not in '0123456789':
